@@ -7,3 +7,5 @@ def index(request):
     my_dict = {
         'insert_data': 'this is test page.',
     }
+    return render(request, 'index.html', my_dict)
+
